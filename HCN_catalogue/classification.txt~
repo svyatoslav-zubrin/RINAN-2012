@@ -1,0 +1,49 @@
+*** Interesting HCN observations. ***
+**Complex spectra - candidates for mapping (multipeak etc):
+108.596+0.493 - low SNR, reobserve
+121.28+0.65 - multipeak structure
+136.84+1.12 - low SNR, probably multipeak structure
+173.49+2.42 - провалы
+205.109-14.111 - multipeak structure
+34.403+0.233 - multipeak structure
+37.427+1.518 - 2 peaks
+45.44+0.07 - wide line with 3 narrow peaks
+45.47+0.07 - wide line with 3 narrow peaks (very low SNR)
+69.541-0.975 - unusual peak relation
+75.76+0.34 - провалы
+75.772+0.343 - провалы
+81.87+0.78 - wide thermal component with 3-peak structure on it
+99.982+4.17 - narrow components on the wider ones
+DR21(OH) - multipeak structure
+DR21-West - wide lines
+** Complex spectra (single wide line):
+45.07+0.13
+49.485-0.359
+49.49-0.387
+59.832+0.671 - very low SNR
+** Bad SNR, but usual 3-peak structure:
+108.75-0.96
+110.093-0.065
+111.236-1.238
+111.24-0.76
+123.05-6.31
+133.749+1.198
+173.481+2.446
+173.69+2.87
+174.19-0.09
+183.34+0.59
+188.79+1.02
+34.82+0.352
+49.267-0.337
+85.40-0.00
+94.259-0.411
+IRAS05373+2349
+** Bad SNR, probably positive detection:
+114.513-0.535
+122.015-7.072
+34.3+0.2
+53.032+0.117
+60.56-0.17
+73.062+1.797
+81.877+0.784
+
