@@ -1,0 +1,28 @@
+To do list:
+1. catalogue of the II class MM for CS observations:
+	Columns of the catalogue
+		- name (from original source catalogue: pestlozzi, xu, valtts, new chinese)
+		- coordinates from the original MM maser (in the epoch of the source catalogue)
+		- epoch of the coordinates
+		- Vlsr of the maser from the catalogue
+		- flux dencity of the maser
+		
+		- our CS observation results with parameters 
+		- quality of the obtained CS spectrum
+		- mark for observations (needed or not)
+
+		- associated masers from other catalogues
+		- associated IRAS source
+		- associated CS (1-0) observations results with parameters (see bronfman, larionov, beuther, Szymczak(07) observations)
+		- distance from the third-party observational point and maser source (if possible)
+
+Tasks for catalog creation:
+- create list of masers (unique): compare coordinates of masers from different catalogues. Limit: 15arcsec
+- create list of our observations of the CS molecule
+- create lists of third-party observations of the CS molecule
+compare:
+
+
+Tasks for programming:
+- class LarionovSource:Source
+- reqork all "descriptions" methods

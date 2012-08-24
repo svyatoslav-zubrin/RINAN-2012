@@ -1,0 +1,494 @@
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/00338+6312/18 09/00338+6312 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/00338+6312/19.09.07/00338+6312 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/00338+6312/18 09/00338+6312 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/00494+5617/19.09.07/00494+5617 (0 0) 0_6k.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/02455+6034/02455+6034 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/03414+3200/03414+3200 (0 0_5) CS.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/06055+2039/19.09.07/06055+2039 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/Pest 06055+2039/07 08/06055+2039 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/06055+2039/19.09.07/06055+2039 (0 0) 0_4k x2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/06058+2138/19.09.07/06058+2138 (0 -0_5)n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/06058+2138/19.09.07/06058+2138 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/06099+1800/19.09.07/06099+1800 (0 -0_5)n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/06099+1800/19.09.07/06099+1800 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/06099+1800/19.09.07/06099+1800 (2 -0_5)0_5k.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/23 09/109_87+02_12 (-10 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/23 09/109_87+02_12 (-14 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/23 09/109_87+02_12 (-14 -0_5)a.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/23 09/109_87+02_12 (-2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/23 09/109_87+02_12 (-6 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/23 09/109_87+02_12 (-6 -0_5)a.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/20.09.07/109_87+02_12 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/23 09/109_87+02_12 (2 -0_5) 1K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/20.09.07/109_87+02_12 (2 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/20.09.07/109_87+02_12 (3 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/20.09.07/109_87+02_12 (3 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/20.09.07/109_87+02_12 (4 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/20.09.07/109_87+02_12 (4 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/20.09.07/109_87+02_12 (5 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/20.09.07/109_87+02_12 (5 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/20.09.07/109_87+02_12 (6 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/23 09/109_87+02_12 (6 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/21 09/109_92+01_98 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/21 09/109_92+01_98 (3 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/109_87+02_12/21 09/109_92+01_98 (3 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/111_54+00_78/21.09.07/109_92+01_98 (4 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (-12 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (-12 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (-12 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (-12 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (-12 3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (-16 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (-16 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (-16 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08 _22.08.08/111_54+00_78 (-2 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08/111_54+00_78 (-20 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08/111_54+00_78 (-24 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08/111_54+00_78 (-24 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (-4 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (-4 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08 _22.08.08/111_54+00_78 (-4 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (-4 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (-4 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (-4 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (-4 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (-4 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (-4 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (-4 1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (-8 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (-8 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (-8 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (-8 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (-8 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (-8 1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/111_54+00_78 (0 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (0 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08/111_54+00_78 (0 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08 _22.08.08/111_54+00_78 (0 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_251/20.08.08/111_54+00_78 (0 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (0 -1) 2_01K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08 _22.08.08/111_54+00_78 (0 -1) new temperature.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (0 -1) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (0 -1) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08 _22.08.08/111_54+00_78 (0 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08 _22.08.08/111_54+00_78 (0 -2) new temp.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (0 -2) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (0 -2) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (0 -3) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (0 -3) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08 _22.08.08/111_54+00_78 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (0 0) y 0_71K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (0 0) y 0_71K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/111_54+00_78/21.09.07/111_54+00_78 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (0 1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (12 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (12 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (16 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08/111_54+00_78 (16 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/111_54+00_78/20.09.07/111_54+00_78 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/111_54+00_78/21.09.07/111_54+00_78 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/111_54+00_78/20.09.07/111_54+00_78 (2 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08/111_54+00_78 (20 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (4 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (4 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/21.08.08 _22.08.08/111_54+00_78 (4 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (4 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (4 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (4 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (4 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (4 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (4 1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (8 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (8 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/13.08.08/111_54+00_78 (8 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/15.08.08/111_54+00_78 (8 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras 23116+6111/11.08.08/111_54+00_78 (8 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/11.08.08/111_54+00_78 (8 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/133_72+01_22/19.09.07/133_72+01_22 (0 0)0_7k.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/133_72+01_22/19.09.07/173_63+02_87 (-2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/133_72+01_22/19.09.07/173_63+02_87 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/133_72+01_22/19.09.07/173_63+02_87 (0 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/133_72+01_22/19.09.07/173_63+02_87 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/133_72+01_22/19.09.07/173_63+02_87 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Pestalozzi05/173_71+2_35/20.09.07/173_71+2_35 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/133_72+01_22/19.09.07/173_71+2_35 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Pestalozzi05/173_71+2_35/20.09.07/173_71+2_35 (0 -0_5) #2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Pestalozzi05/173_71+2_35/20.09.07/173_71+2_35 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/133_72+01_22/19.09.07/173_71+2_35 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Pestalozzi05/173_71+2_35/20.09.07/173_71+2_35 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Pestalozzi05/173_71+2_35/20.09.07/173_71+2_35 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/173_71+2_35/20.09.07/173_71+2_35 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/174_19-0_09/21.09.07/174_19-0_09 (2 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18455-0149/30.09.07/18455-0149 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18470-0050/28.09.07/18470-0050 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18470-0050/29.09.07/18470-0050 (0 0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18494+0002/28.09.07/18494+0002 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18497+0022/26.09.07/18497+0022 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18508+0052/26.09.07/18508+0052 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18508+0052/26.09.07/18508+0052 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18512+0029/22.09.07/18512+0029 (0 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18512+0029/26.09.07/18512+0029 (2 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18515/21.09.07/18515+0157 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18515/21.09.07/18515+0157 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/18527+0301/25.09.07/18527+0301 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/188_95+0_89/188_95+0_89 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/188_95+0_89/188_95+0_89 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/189_03+0_76/189_03+0_76 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/189_03+0_76/189_03+0_76 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19002+0654/25.09.07/19002+0654 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19012+0505/23.09.07/19012+0505 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19012+0505/23.09.07/19012+0505 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19012+0505/23.09.07/19012+0505 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19031+0621/23.09.07/19031+0621 (0 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19031+0621/23.09.07/19031+0621 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19031+0621/23.09.07/19031+0621 (2 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19048+0705/23.09.07/19048+0705 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19049+0712/22.09.07/19049+0712 (0 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19049+0712/22.09.07/19049+0712 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19049+0712/22.09.07/19049+0712 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19049+0712/22.09.07/19049+0712 (0 0_5)2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19078+0901/27.09.06/19078+0901 (0 0) 0_4k 14MHz.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19078+0901/27.09.06/19078+0901 (0 0) 0_4K 64MHz.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19092+0841/22.09.07/19092+0841 (0 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19092+0841/22.09.07/19092+0841 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19092+0841/22.09.07/19092+0841 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19095+0930/20 09/19095+0930 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19095+0930/20 09/19095+0930 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19095+0930/20 09/19095+0930 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19095+0930/20 09/19095+0930 (3 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19110+1045/20.09.07/19110+1045 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/06055+2039/21.09.07/19110+1045 (2 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19186+1440/22.09.07/19186+1440 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19186+1440/22.09.07/19186+1440 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19186+1440/22.09.07/19186+1440 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19211+1432/20.09.07/19211+1432 (0 0)n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19216+1429/18.09.07/19216+1429 (0 -0_5) cs.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19216+1429/20.09.08/19216+1429 (0 -10)ref2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19216+1429/20.09.08/19216+1429 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19216+1429/20.09.08/19216+1429 (0 0) ref(40 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19216+1429/18.09.07/19216+1429 (0 0)CS.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19216+1429/18.09.07/19216+1429 (2 -0_5) cs.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19216+1429/20.09.08/19216+1429 (40 0)ref1.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/08.08.08/19270+1750 (0 0) 0_6K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19282+1814/20.09.07/19282+1814 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19282+1814/20.09.07/19282+1814 (0 -0_8).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19282+1814/20.09.07/19282+1814 (0 0)n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/19282+1814/20.09.07/19282+1814 (2 -0_5)n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/196_45-1_68/20.09.07/196_45-1_68 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/196_45-1_68/20.09.07/196_45-1_68 (0 -0_5)#2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/196_45-1_68/20.09.07/196_45-1_68 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/196_45-1_68/20.09.07/196_45-1_68 (0 0_5)#2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_243/07.08.08/20198+3716 (-2 -1_5) 0_84K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_243/07.08.08/20198+3716 (-4 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_243/07.08.08/20198+3716 (-4 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_243/07.08.08/20198+3716 (0 -1) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_243/07.08.08/20198+3716 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_243/07.08.08/20198+3716 (0 0) ref error.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_243/07.08.08/20198+3716 (4 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_243/07.08.08/20198+3716 (4 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/21381+5000/19 09/21381+5000 (0 -0_3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/21381+5000/19 09/21381+5000 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/21381+5000/19 09/21381+5000 (2 -0_3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/21381+5000/19 09/21381+5000 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/21381+5000/19 09/21381+5000 (4 -0_3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/22272+6358/19 09/22272+6358 (-3 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/22272+6358/19 09/22272+6358 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/22272+6358/19 09/22272+6358 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (-12 -4).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (-16 -4).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (-16 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (-16 1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (-20 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (-20 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (-4 -4).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (-8 -4).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/23116+6111 (0 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (0 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (0 -4).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (12 -3).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras23116+6111/16.08.08/23116+6111 (16 -2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/40_25-0_19/30.09.07/40_25-0_19 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/41_10-0_22/29.09.07/41_10-0_22 (0 0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/41_21-0_19/29.09.07/41_21-0_19 (0 0_5) proverit po ciklam.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/41_34-0_14/28.09.07/41_34-0_14 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/42_07+0_24/28.09.07/42_07+0_24 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/43_02-0_44/27.09.07/43_02-0_44 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/43_15+00_02/24.09.07/43_15+00_02 (0 0) podozrenie na liniju.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/43_15+00_02/24.09.07/43_15+00_02 (0 0) y 0_3 K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/45_07+0_13/27.09.07/45_07+0_13 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/45_44+00_07/25.09.07/45_44+00_07 (0 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/45_44+00_07/25.09.07/45_44+00_07 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/45_49+00_13/24.09.07/45_49+00_13 (0 0) podozrenie na liniju.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/45_49+00_13/24.09.07/45_49+00_13 (0 0) y 0_3 K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/49_38+0_33/26.09.07/49_38+0_33 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/49_47-0_37/26.09.07/49_47-0_37 (0 0) 0_5K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/49_47-00_37/24.09.07/49_47-00_37 (0 0) y 1_5 K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/49_49-0_39/26.09.07/49_49-0_39 (0 0) 1K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/49_49-00_39/24.09.07/49_49-00_39 (0 0) y 1_5 K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/50_00+0_59/30.09.07/50_00+0_59 (0 0) 1 cikl n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/50_00+0_59/25.09.07/50_00+0_59 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/52_66-1_09/25.09.07/52_66-1_09 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/52_67-01_09/22.09.07/52_67-01_09 (0 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/52_67-01_09/24.09.07/52_67-01_09 (0 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/52_67-01_09/24.09.07/52_67-01_09 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/53_04+0_11/30.09.07/53_04+0_11 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/53_04+0_11/29.09.07/53_04+0_11 (0 0_5) abs.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/53_14+0_07/28.09.07/53_14+0_07 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/53_62+0_04/27.09.07/53_62+0_04 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/59_83+00_67/20.09.07/59_83+00_67 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/59_83+00_67/20.09.07/59_83+00_67 (0 0)n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/59_83+00_67/20.09.07/59_83+00_67 (2 -0_5) y 0_2k.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/59_84+00_66/21.09.07/59_84+00_66 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/59_84+00_66/21.09.07/59_84+00_66 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/59_84+00_66/21.09.07/59_84+00_66 (4 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/69_52-0_97/21.09.07/69_52-0_97 (2 -0_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/78_62+0_98/22.09.07/78_62+0_98 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/78_62+0_98/22.09.07/78_62+0_98 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/78_62+0_98/22.09.07/78_62+0_98 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/79_75+00_99/21.09.07/79_75+00_99 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/20.09.07/79_75+00_99 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/79_75+00_99/79_75+00_99 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/79_75+00_99/21.09.07/79_75+00_99 (0 0_2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/79_75+00_99/21.09.07/79_75+00_99 (2 -0_5)n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Xu/79_75+00_99/79_75+00_99 (3 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/81_72+0_57/22.09.07/81_72+0_57 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/81_72+0_57/22.09.07/81_72+0_57 (1 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/81_72+0_57/22.09.07/81_72+0_57 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/85_40-0_00/22,09.07/85_40-0_00 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/85_40-0_00/22,09.07/85_40-0_00 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/85_40-0_00/22,09.07/85_40-0_00 (2 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/85_40-0_00/22,09.07/85_40-0_00 (2_5 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/AFGL5157/21 09 CS/AFGL5157 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/AFGL5157/21 09 CS/AFGL5157 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/AFGL5157/21 09 CS/AFGL5157 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/AFGL5157/21 09 CS/AFGL5157 (0 0_5)a.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/AFGL5157/21 09 CS/AFGL5157 (0 1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/AFGL5157/21 09 CS/AFGL5157 (0 1)a.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/dr21(oh)/22.08.08/DR21(OH) (0 0) CS.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/G33.6+0.1/21.08.08/g33_6+0_1 (0 0) CS n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/G33.6+0.1/21.08.08/IRAS18502+0034 (0 0)CS vlsr 95.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras19471+2641/16.08.08/iras19471+2641 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras20067+3415/16.08.08/iras20067+3415 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/iras20072+2720/16.08.08/iras20072+2720 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Mol138_1/30.09.07(cs)/Mol138_1 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/Mol138_1/29.09.07(cs)/Mol138_1 (0 0_5) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_172/16.08.08/pest_172 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_174/15.08.08/pest_174 (-2 -2) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_174/15.08.08/pest_174 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_174/15.08.08/pest_174 (2 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_176/19.08.08/pest_176 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_177/18.08.08/pest_177 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_177/18.08.08/pest_177 (0 0) error.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_177/18.08.08/pest_177 (0 0) error #2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_177/18.08.08/pest_177 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_178/10.08.08/pest_178 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_179/10.08.08/pest_179 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_179/10.08.08/pest_179 (0 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_180/06.08.08/pest_180 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_180/06.08.08/pest_180 (4 -1) doubt.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_181/14.08.08/pest_181 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_182/14.08.08/pest_182 (0 0) probably.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_182/14.08.08/pest_182 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_183/06.08.08/pest_183 (2 -1) n no vozmozhno.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_183/06.08.08/pest_183 (4 -1) invert.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_183/06.08.08/pest_183 (4 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_184/19.08.08/pest_184 (0 0) absorbtion.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_184/19.08.08/pest_184 (0 0) error #2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_184/19.08.08/pest_184 (0 0) error at the end.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_184/19.08.08/pest_184 (0 10) y ref point.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_187/15.08.08/pest_187 (-2 -2) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_187/15.08.08/pest_187 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_187/15.08.08/pest_187 (2 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_192/13.08.08/pest_192 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_192/13.08.08/pest_192 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_193/10.08.08/pest_193 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_193/10.08.08/pest_193 (0 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_194/20.08.08/pest_194 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_195/20.08.08/pest_195 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_197/20.08.08/pest_197 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_200/10.08.08/pest_200 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_201/20.08.08/pest_201 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_202/19.08.08/pest_202 (0 0) error.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_202/19.08.08/pest_202 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_203/18.08.08/pest_203 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_204/08.08.08/pest_204 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_204/08.08.08/pest_204 (2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_204/08.08.08/pest_204 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_205/16.08.08/pest_205 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_205/16.08.08/pest_205 (2 0) 0_4K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_205/16.08.08/pest_205 (2 0) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_206/17.08.08/pest_206 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_207/14.08.08/pest_207 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_207/14.08.08/pest_207 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_210/20.08.08/pest_210 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_211/21.08.08/pest_211 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_212/09.08.08/pest_212 (-2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_212/09.08.08/pest_212 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_212/09.08.08/pest_212 (2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_213/17.08.08/pest_213 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_214/07.08.08/pest_214 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_214/07.08.08/pest_214 (2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_214/07.08.08/pest_214 (4 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_223/14.08.08/pest_223 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_223/14.08.08/pest_223 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_229/14.09.09/pest_229 (0 0) doubt.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_229/20.08.08/pest_229 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_229/14.09.09/pest_229 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_231/11.08.08/pest_231 (0 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_231/11.08.08/pest_231 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/14.08.08/pest_233 (-2 -1) #2 0_36K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/12.08.08/pest_233 (-2 -1) 0_47K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/15.08.08/pest_233 (-2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/14.08.08/pest_233 (-2 -2) #2 0_73K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/12.08.08/pest_233 (-2 -2) 0_32K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/15.08.08/pest_233 (-2 -2) proval.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/12.08.08/pest_233 (-2 0) #1.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/14.08.08/pest_233 (-4 -1) #2 n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/12.08.08/pest_233 (-4 -1) 0_3K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/14.08.08/pest_233 (-4 -2) #2 0_29K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/12.08.08/pest_233 (0 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/14.08.08/pest_233 (0 -1) #2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/13.08.08/pest_233 (0 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/14.08.08/pest_233 (0 -2) #2 0_44K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/12.08.08/pest_233 (0 0) #2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/14.08.08/pest_233 (0 0) #2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/13.08.08/pest_233 (0 0) 0_35K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/19.08.08/pest_233 (0 0) 0_49K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/15.08.08/pest_233 (0 0) 0_56K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/20.08.08/pest_233 (0 0) 0_62K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/21.08.08/pest_233 (0 0) 0_65K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/14.08.08/pest_233 (0 0) 0_96K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/16.08.08/pest_233 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/18.08.08/pest_233 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/10.08.08/pest_233 (0 0) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/15.08.08/pest_233 (0 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/15.08.08/pest_233 (2 0) 0_69K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/14.08.08/pest_233 (2 1) #2 n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/15.08.08/pest_233 (2 1) 0_59K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/15.08.08/pest_233 (2 2) 0_6K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_233/12.08.08/pest_233 (4 1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/Pest_241/07.08.08/pest_241 (-2 -1_5) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/Pest_241/07.08.08/pest_241 (-4 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/Pest_241/07.08.08/pest_241 (0 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/Pest_241/07.08.08/pest_241 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/Pest_241/07.08.08/pest_241 (0 1)  n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_245/11.08.08/pest_245 (0 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_245/11.08.08/pest_245 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_245/11.08.08/pest_245 (0 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_246/09.08.08/pest_246 (-2 -1) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_246/09.08.08/pest_246 (-2 -1) y #2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_246/09.08.08/pest_246 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_248/15.08.08/pest_248 (-2 -2) 1_2K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_248/16.08.08/pest_248 (0 0) 2_04K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_248/18.08.08/pest_248 (0 0) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_249/15.08.08/pest_249 (-2 -2) 1_41K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_250/15.08.08/pest_250 (-2 -2) 0_92K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_251/20.08.08/pest_251 (-2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_251/15.08.08/pest_251 (-2 -2) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_251/20.08.08/pest_251 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_252/07.08.08/pest_252 (-2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_252/07.08.08/pest_252 (-2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_252/07.08.08/pest_252 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_252/07.08.08/pest_252 (2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_252/07.08.08/pest_252 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_263/13.08.08/pest_263 (-3 -1) 0_32K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_263/13.08.08/pest_263 (-3 0)0_52K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_263/13.08.08/pest_263 (0 -1)0_29K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_263/13.08.08/pest_263 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_266/09.08.08/pest_266 (0 1) 0_25K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_267/09.08.08/pest_267 (-2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_267/09.08.08/pest_267 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_267/09.08.08/pest_267 (0 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_267/09.08.08/pest_267 (2 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_267/09.08.08/pest_267 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_269/07.08.08/pest_269 (-2 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_269/07.08.08/pest_269 (-2 0) #2 n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_269/07.08.08/pest_269 (0 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_269/07.08.08/pest_269 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_269/07.08.08/pest_269 (0 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_269/07.08.08/pest_269 (2 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_269/07.08.08/pest_269 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_277/09.08.08/pest_277 (-2 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_277/07.08.08/pest_277 (-2 -1) N.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_277/07.08.08/pest_277 (-4 -1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_277/07.08.08/pest_277 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_277/09.08.08/pest_277 (0 0) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_277/07.08.08/pest_277 (2 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_277/07.08.08/pest_277 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/pest_277/09.08.08/pest_277 (2 1) n.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/s140/21 08/S140 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/s140/03.10/S140 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/s140/21 08/S140 (0 1) 1K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/s140/21 08/S140 (0 1)14MHz 1K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2008/s140/21 08/S140 (6 1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/128/22.09/VALTTZ_128 (  2_4  -0_7)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/128/22.09/VALTTZ_128 (  4_0  -0_3) new callibration.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/128/22.09/VALTTZ_128 (  4_0  -0_3)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/128/22.09/VALTTZ_128 (  4_0  -0_7)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/128/22.09/VALTTZ_128 (  4_0  -1_1)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/128/22.09/VALTTZ_128 (  5_6  -0_7)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/131/03.10/VALTTZ_131 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/131/03.10/VALTTZ_131 (0 0) #2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/134/03.10/VALTTZ_134 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/134/03.10/VALTTZ_134 (1 -0_25).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/145/22.09/VALTTZ_145 (  3_7   0_4)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/145/22.09/VALTTZ_145 (  5_0  -0_1)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/145/22.09/VALTTZ_145 (  5_0   0_4).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/145/22.09/VALTTZ_145 (  5_0   0_9) new calibration.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/145/22.09/VALTTZ_145 (  5_0   0_9)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/145/22.09/VALTTZ_145 (  6_3   0_4)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/147/22.09/VALTTZ_147 ( -2_5  -1_0)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/147/22.09/VALTTZ_147 (  2_5  -0_5)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/147/22.09/VALTTZ_147 (  2_5  -1_5) new calibr.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/147/22.09/VALTTZ_147 (  2_5  -1_5)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/147/22.09/VALTTZ_147 (  7_5  -1_0)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/147/22.09/VALTTZ_147 (2_5 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/154/22.09/VALTTZ_154 (2_5 -1_0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/155/VALTTZ_155 (2 -1_0) #1.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/156/23.09/VALTTZ_156 ( -3_0  -1_2)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/156/23.09/VALTTZ_156 (  0_0  -0_7)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/156/23.09/VALTTZ_156 (  0_0  -1_7) new calibr.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/156/23.09/VALTTZ_156 (  0_0  -1_7)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/156/23.09/VALTTZ_156 (  3_0  -1_2)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/156/23.09/VALTTZ_156 (0 -1_2).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/160/23.09/VALTTZ_160 ( -2_0  -1_0)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/160/23.09/VALTTZ_160 (  2_0  -0_5)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/160/23.09/VALTTZ_160 (  2_0  -1_5) new calibration.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/160/23.09/VALTTZ_160 (  2_0  -1_5)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/160/23.09/VALTTZ_160 (  6_0  -1_0)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/160/23.09/VALTTZ_160 (2 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/3/23.09/VALTTZ_3 ( -0_8  -1_0)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/3/23.09/VALTTZ_3 (  1_5  -0_5)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/3/23.09/VALTTZ_3 (  1_5  -1_5) new calibration.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/3/23.09/VALTTZ_3 (  1_5  -1_5)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/3/23.09/VALTTZ_3 (  3_8  -1_0)0.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/3/23.09/VALTTZ_3 (1_5 -1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/6/23.09/VALTTZ_6 (1 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/9/23.09/VALTTZ_9 (2 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/9/23.09/VALTTZ_9 (2 0) #2.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2009/Valttz/9/23.09/VALTTZ_9 (2 0) #3.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/29.09.07/W51E1_E2 (-2 0) 0_3k.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/21.09.07/W51E1_E2 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/22.09.06/W51E1_E2 (0 -0_5) 1K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/W51E1_E2 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/21.09.07/W51E1_E2 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/28.09.07/W51E1_E2 (0 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/30.09.07/W51E1_E2 (0 0) 0_5K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/19.09.07/W51E1_E2 (0 0) 1_5K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/27.09.07/W51E1_E2 (0 0) 14MHz.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/29.09.07/W51E1_E2 (0 0) 1k.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/23.09.07/W51E1_E2 (0 0) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/24.09.07/W51E1_E2 (0 0) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/25.09.07/W51E1_E2 (0 0) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/20.09.07/W51E1_E2 (0 0)1_27K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/21.09.07/W51E1_E2 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/22.09.06/W51E1_E2 (0 0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/29.09.07/W51E1_E2 (0 0_5) 0_7K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/21.09.07/W51E1_E2 (0 1).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/26.09.07/W51E1_E2 (2 -0_5) y.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/21.09.07/W51E1_E2 (2 0).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/2007/W51E1_E2/29.09.07/W51E1_E2 (2 0) 0_6 K.R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/196_45-1_68 (0 -0_5).R22
+/Users/admin/IDriveSync/Work/RINAN/Rad4/Data/79_75+00_99 (0 0_2).R22
