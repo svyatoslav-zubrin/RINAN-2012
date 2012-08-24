@@ -6,6 +6,15 @@ from math import sqrt
 #-----------------------------------------------------------------------------
 ERROR_VALUE = -9999
 
+SPATIAL_RESOLUTION_DEFAUL = 10 #arcsec
+
+RT22_NONDETECTED = -1
+RT22_UNKNOWN     =  0
+RT22_DETECTED    =  1
+
+OTHER_NONDETECTED = -1
+OTHER_UNKNOWN     =  0
+OTHER_DETECTED    =  1
 
 #-----------------------------------------------------------------------------
 # Base classes
@@ -126,13 +135,11 @@ class MMaser(Source):
         self.has_unresolved_sources = False
         self.unresolved_sources = []
         # if maser was observed in CS with third-party telescope
-        self.cs_observed = False
-        self.cs_detected = False
-        self.cs_results = []
+        self.other_cs_results = []
+        self.otherDetectionMark = OTHER_UNKNOWN;
         # if maser was observed in CS(2-1) on the RT22 telescope
-        self.our_cs_observed = False
-        self.our_cs_detected = False
         self.our_cs_results = []
+        self.rt22DetectionMark = RT22_UNKNOWN;
 
     def addMMResult(self, result):
         """
@@ -140,13 +147,11 @@ class MMaser(Source):
         self.spectral_lines.append(result)
         self.multiple_sectral_lines = True
 
-    def addOurCS(self, our_cs_results):
-        self.our_cs_results.append(our_cs_results)
-        self.our_cs_observed = True
+    def addOurCS(self, our_cs_result):
+        self.our_cs_results.append(our_cs_result)
 
     def addThirdpartyCS(self, cs_results):
-        self.cs_results.append(cs_results)
-        self.cs_observed = True
+        self.other_cs_results.append(cs_results)
 
     def addSpatiallyUnresolvedSource(self, source):
         self.unresolved_sources.append(source)
@@ -175,10 +180,82 @@ class MMaser(Source):
             for result in self.our_cs_results:
                 desc_string += source.description() + "\t"
         return desc_string
+    
+    def observationalCatalogueItem(self):
+        if (self.multiple_sectral_lines == False):
+            # name and parameters of maser
+            if self.velocity == ERROR_VALUE:
+                return ""
+            desc_string = "%15.15s    %s   " % (self.name, self.coordinates.description())
+            desc_string += "%8.2f  %8.2f          |%s|  " % (self.velocity, self.flux, self.author_name)
+            # rt22 observations mark
+            #if ((self.our_cs_observed == True) & (self.our_cs_detected == False)):
+            #    desc_string += "n   |  "
+            #elif ((self.our_cs_observed == True) & (self.our_cs_detected == True)):
+            #    desc_string += "y   |  "
+            #else:
+            #    desc_string += "-   |  "
+            if (self.rt22DetectionMark == RT22_NONDETECTED):
+                desc_string += "n  |  "
+            elif (self.rt22DetectionMark == RT22_DETECTED):
+                desc_string += "y  |  "
+            else:
+                desc_string += "-  |  "
+            # third-party observations mark 
+            if (len(self.other_cs_results) > 0): #TODO: not working
+                desc_string += "y  |  "
+            else:
+                desc_string += "n  |  "
+            # unresolved maser sources from other catalogues
+            if (self.has_unresolved_sources == True):
+                for unres_source in self.unresolved_sources:
+                    desc_string += "%s  " % (unres_source.name)
+        else:
+            # name and parameters of maser
+            desc_string = "multi:\n"
+            for line in self.spectral_lines:
+                desc_string += "%15.15s    %s   " % (self.name, self.coordinates.description())
+                desc_string += "%8.2f  %8.2f  %5.2f   |%s|  " % (line.vlsr, line.flux, line.linewidth, self.author_name)
+                # rt22 observations mark
+                if (self.rt22DetectionMark == RT22_NONDETECTED):
+                    desc_string += "n  |  "
+                elif (self.rt22DetectionMark == RT22_DETECTED):
+                    desc_string += "y  |  "
+                else:
+                    desc_string += "-  |  "
+                # third-party observations mark
+                if (len(self.other_cs_results) > 0): # TODO: not working
+                    desc_string += "y  |  "
+                else:
+                    desc_string += "n  |  "
+                # unresolved maser sources from other catalogues
+                if (self.has_unresolved_sources == True):
+                    for unres_source in self.unresolved_sources:
+                        desc_string += "%s  " % (unres_source.name)
+                desc_string += "\n"
+        return desc_string
+    
+    def markAsRT22Detected(self):
+        self.rt22DetectionMark = RT22_DETECTED;
         
+    def markAsRT22Nondetected(self):
+        self.rt22DetectionMark = RT22_NONDETECTED;
+        
+    def markAsOtherDetected(self):
+        self.otherDetectionMark = OTHER_DETECTED;
+        
+    def markAsOtherNondetected(self):
+        self.otherDetectionMark = OTHER_NONDETECTED;
+        
+    def selectAppropriateCSObservations(self, cs_catalogues):
+        for catalogue in cs_catalogues:
+            for source in catalogue:
+                if (source.coordinates.isIdenticalWithCoordinates(self.coordinates)):
+                    self.addThirdpartyCS(source)
+        return
 
 def preparePestalozzi():
-    filename = "pestalozzi.catalogue"
+    filename = "./catalogues/pestalozzi.catalogue"
     sourcesInitStringNumber = 106
     sourcesFinlStringNumber = 624
 
@@ -198,14 +275,14 @@ def preparePestalozzi():
         coordinates = Coordinates([ra_h, ra_m, ra_s, dec_d, dec_m, dec_s, epoch], "list_equat")
         vlsr = float(masersList[i][86:92])
         irasname = masersList[i][132:142]
-        maserSource = MMaser(sourcename, coordinates, flux, "IIclass", vlsr, irasname, "M.Pestalozzi(J/A+A/432/737)")
+        maserSource = MMaser(sourcename, coordinates, flux, "IIclass", vlsr, irasname, "pest")
         pestalozziMasers.append(maserSource)
         # print maserSource.description()
     return pestalozziMasers
 
 
 def prepareValttz():
-    filename = "valtts.catalogue"
+    filename = "./catalogues/valtts.catalogue"
     sourcesInitStringNumber = 98
     sourcesFinlStringNumber = 257
 
@@ -242,14 +319,14 @@ def prepareValttz():
             coordinates, \
             flux, " Iclass", \
             vlsr, \
-            irasname, "Val'tts(J/AZh/84/579)")
+            irasname, "valt")
         valttzMasers.append(maserSource)
         # print maserSource.description()
     return valttzMasers
 
 
 def prepareChen():
-    filename = "chen.catalogue"
+    filename = "./catalogues/chen.catalogue"
     sourcesInitStringNumber = 90
     sourcesFinlStringNumber = 282
     resultsInitStringNumber = 305
@@ -281,7 +358,7 @@ def prepareChen():
             coordinates, \
             flux, " Iclass", \
             vlsr, \
-            irasname, "Chen(J/ApJS/196/9)")
+            irasname, "chen")
         chenMasers.append(maserSource)
 
     # results (can be more than one result for single source)   
@@ -295,13 +372,13 @@ def prepareChen():
         source[0].addMMResult(chenResult)
         
     # printing for test
-    for maser in chenMasers:
-        print maser.description()
+    # for maser in chenMasers:
+    #     print maser.description()
 
     return chenMasers
 
 
-def findCataloguesIntersection(sourcesList1, sourcesList2, spatial_resolution_arcsec=10):
+def findCataloguesIntersection(sourcesList1, sourcesList2, spatial_resolution_arcsec=SPATIAL_RESOLUTION_DEFAUL):
     for source1 in sourcesList1:
         for source2 in sourcesList2:
             if (source1.coordinates.isIdenticalWithCoordinates(source2.coordinates, spatial_resolution_arcsec/60.0)):
@@ -309,20 +386,41 @@ def findCataloguesIntersection(sourcesList1, sourcesList2, spatial_resolution_ar
                 source2.addSpatiallyUnresolvedSource(source1)
                 # print source1.description()
 
+
 #-----------------------------------------------------------------------------
 # Third-party CS observations operations
 #-----------------------------------------------------------------------------
-class BronfmanSource(Source):
-    """docstring for BronfmanSource"""
-    def __init__(self, name, coordinates, author, temperature, velocity, linewidth, irasname):
-        super(BronfmanSource, self).__init__(name, coordinates, author)
-        self.cs_detected = False
+
+class CSResult(object):
+    """Unique result of CS observations (spectrl parameters of the line)"""
+    def __init__(self, velocity, linewidth, temperature):
+        super(CSResult, self).__init__()
+        self.velocity = velocity
+        self.linewidth = linewidth
         self.temperature = temperature
-        self.velocity    = velocity
-        self.linewidth   = linewidth
-        self.irasname    = irasname
-        if self.temperature != ERROR_VALUE:
-            self.cs_detected = True;
+
+
+class CSSource(Source):
+    """Base class for all third-party observations"""
+    def __init__(self, name, coordinates, author, irasname = ""):
+        super(CSSource, self).__init__()
+        self.irasname = irasname
+        self.cs_results = []
+        
+    def addCSResult(self, result):
+        self.cs_results.append(result)
+        return
+
+    def description(self):
+        desc_string = "%+6.1f %4.1f %4.1f" % (self.velocity, self.temperature, self.linewidth)
+        return desc_string + "   "
+
+#-----------------------------------------------------------------------------
+
+class BronfmanSource(CSSource):
+    """docstring for BronfmanSource"""
+    def __init__(self, name, coordinates, author, irasname = ""):
+        super(BronfmanSource, self).__init__(name, coordinates, author, irasname)
         
     def description(self):
         desc_string = self.author_name + "__" + self.name + " " + str(self.temperature) + " " + self.irasname
@@ -364,7 +462,9 @@ def prepareBronfman():
             linewidth = float(linewidth_string)
         else:
             linewidth = ERROR_VALUE
-        bronfmanSource = BronfmanSource(sourcename, coordinates, "Bronfman(J/A+AS/115/81)", temperature, velocity, linewidth, irasname)
+        bronfmanSource = BronfmanSource(sourcename, coordinates, "bron", irasname)
+        cs_result = CSResult(velocity, linewidth, temperature)
+        bronfmanSource.addCSResult(cs_result)
         bronfmanSources.append(bronfmanSource)
         j += 1
         # print bronfmanSource.description()
@@ -372,30 +472,22 @@ def prepareBronfman():
 
 
 #-----------------------------------------------------------------------------
-class BeutherCSResult(object):
-    """docstring for beutherCSResult"""
-    def __init__(self, velocity, temperature, linewidth):
-        super(BeutherCSResult, self).__init__()
-        self.velocity = velocity
-        self.temperature = temperature
-        self.linewidth = linewidth
+# class BeutherCSResult(object):
+#     """docstring for beutherCSResult"""
+#     def __init__(self, velocity, temperature, linewidth):
+#         super(BeutherCSResult, self).__init__()
+#         self.velocity = velocity
+#         self.temperature = temperature
+#         self.linewidth = linewidth
 
-    def description(self):
-        desc_string = "%+6.1f %4.1f %4.1f" % (self.velocity, self.temperature, self.linewidth)
-        return desc_string + "   "
+#     def description(self):
+#         desc_string = "%+6.1f %4.1f %4.1f" % (self.velocity, self.temperature, self.linewidth)
+#         return desc_string + "   "
         
-class BeutherSource(Source):
+class BeutherSource(CSSource):
     """Beuther CS observations result (stored in beuther.catalogue)"""
-    def __init__(self, name, coordinates, author, velocity, irasname):
-        super(BeutherSource, self).__init__(name, coordinates, author)
-        self.irasname = irasname
-        self.velocity = velocity
-        self.isCSResults = False
-        self.cs_results = []
-
-    def addCSResult(self, result):
-        self.cs_results.append(result)
-        self.isCSResults = True
+    def __init__(self, name, coordinates, author, irasname):
+        super(BeutherSource, self).__init__(name, coordinates, author, irasname)
 
     def description(self):
         desc_string = self.name + "\t" + self.coordinates.description() + "\t" + self.irasname + "\t"
@@ -437,7 +529,7 @@ def prepareBeuther():
             velocity = float(velocity_string)
         else:
             velocity = ERROR_VALUE
-        beutherSource = BeutherSource(sourcename, coordinates, "Beuther(J/ApJ/566/945)", velocity, irasname)
+        beutherSource = BeutherSource(sourcename, coordinates, "beut", irasname)
         beutherSources.append(beutherSource)
         j += 1
         
@@ -448,8 +540,8 @@ def prepareBeuther():
         velocity = float(csList[i][13:18])
         temperature = float(csList[i][19:23])
         linewidth = float(csList[i][24:28])
-        beutherResult = BeutherCSResult(velocity, temperature, linewidth)
-        source[0].addCSResult(beutherResult)
+        cs_result = CSResult(velocity, linewidth, temperature)
+        source[0].addCSResult(cs_result)
 
     # # printing for test
     # for source in beutherSources:
@@ -460,17 +552,17 @@ def prepareBeuther():
 
 
 #-----------------------------------------------------------------------------
-class LarionovSource(Source):
+class LarionovSource(CSSource):
     """docstring for LarionovSource"""
-    def __init__(self, name, coordinates, author, temperature, temperatureIntegrated, velocity, linewidth):
-        super(LarionovSource, self).__init__(name, coordinates, author)
-        self.cs_detected = False
-        self.temperature = temperature
-        self.temperatureIntegrated = temperatureIntegrated
-        self.velocity    = velocity
-        self.linewidth   = linewidth
-        if self.temperature != ERROR_VALUE:
-            self.cs_detected = True;
+    def __init__(self, name, coordinates, author, irasname=""):
+        super(LarionovSource, self).__init__(name, coordinates, author, irasname)
+        # self.cs_detected = False
+        # self.temperature = temperature
+        # self.temperatureIntegrated = temperatureIntegrated
+        # self.velocity    = velocity
+        # self.linewidth   = linewidth
+        # if self.temperature != ERROR_VALUE:
+        #     self.cs_detected = True;
         
     def description(self):
         desc_string = self.author_name + "__" + self.name + " " + str(self.temperatureIntegrated)
@@ -511,9 +603,13 @@ def prepareLarionov():
         linewidth_string = csList[i][12] 
         linewidth = float(linewidth_string)
         # source treatment
-        larionovSource = LarionovSource(sourcename, coordinates, "Larionov(J/A&AS/139/257)", temperature, integrated_temperature, velocity, linewidth)
+        larionovSource = LarionovSource(sourcename, coordinates, "lari")
+        cs_result = CSResult(velocity, linewidth, temperature)
+        larionovSource.addCSResult(cs_result)
         larionovSources.append(larionovSource)
         # print larionovSource.description()
+
+    csFile.close()
     return larionovSources
 
 #-----------------------------------------------------------------------------
@@ -590,11 +686,11 @@ def prepareCSObservations():
         else:
             print "ERROR: Wrong file type (not R22 file)!"
 
-def prepareCSObservationsResults():
+def prepareCSObservationsResults(): 
     pass
 
 def prepareOurDetections():
-    filename = "our_detections.txt"
+    filename = "./rt22/our_detections.txt"
     f = open(filename, 'r')
     detectionsList = f.readlines()
     ourDetections = []
@@ -622,18 +718,17 @@ def prepareOurDetections():
         # print our_detection.description()
     return ourDetections
 
-
 def prepareOurNondetections():
-    filename = "our_nondetections.txt"
+    filename = "./rt22/our_nondetections.txt"
     f = open(filename, 'r')
     nondetectionsList = f.readlines()
     ourNondetections = []
     for i in range(len(nondetectionsList)):
         nondetectionsList[i] = nondetectionsList[i].split()
-        name = nondetectionsList[i][2]
-        ra_h = float(nondetectionsList[i][4])
-        ra_m = float(nondetectionsList[i][5])
-        ra_s = float(nondetectionsList[i][6])
+        name  = nondetectionsList[i][2]
+        ra_h  = float(nondetectionsList[i][4])
+        ra_m  = float(nondetectionsList[i][5])
+        ra_s  = float(nondetectionsList[i][6])
         dec_d = float(nondetectionsList[i][7])
         dec_m = float(nondetectionsList[i][8])
         dec_s = float(nondetectionsList[i][9])
@@ -646,11 +741,39 @@ def prepareOurNondetections():
         # print our_nondetection.description()
     return ourNondetections
 
+#-----------------------------------------------------------------------------
+
+def setMarkForR22Observations(masers, detections, nondetections, spatial_resolution_arcsec=10):
+    for maser in masers:
+        for detection in detections:
+            if (maser.coordinates.isIdenticalWithCoordinates(detection.coordinates, spatial_resolution_arcsec/60.0)):
+                maser.markAsRT22Detected()
+    for maser in masers:
+        for nondetection in nondetections:
+            if (maser.coordinates.isIdenticalWithCoordinates(nondetection.coordinates, spatial_resolution_arcsec/60.0)):
+                maser.markAsRT22Nondetected()
+    return
+
+def setMarkForOtherObservations(masers, other_cs_catalogues, spatial_resolution_arcsec=10):
+    for cs_catalogue in other_cs_catalogues:
+        for detection in cs_catalogue:
+            for maser in masers:
+                if (maser.coordinates.isIdenticalWithCoordinates(detection.coordinates, spatial_resolution_arcsec/60.0)):
+                    maser.markAsOtherDetected()
+    return
+
+#-----------------------------------------------------------------------------
+
+def selectCSResultsForMasers(cs_results_list, masers_list):
+    for masers in masers_list:
+        for maser in masers:
+            maser.selectAppropriateCSObservations(cs_results_list)
+    return
 
 #-----------------------------------------------------------------------------
 # Main programm logic
 #-----------------------------------------------------------------------------
-def main_workflow():
+def prepareMaserCatalogsForObservations2012():
     # prepare lists of masers
     pestalozziList = preparePestalozzi()
     valttsList     = prepareValttz()
@@ -678,8 +801,85 @@ def main_workflow():
     #   - select maser sources within nothern hemisphere
     #   - print every maser catalogue with info about our CS results and other MM (names)
 
+    
+    # create catalogue for 2012 observational session
+    # --- mark rt22 CS observations
+    setMarkForR22Observations(pestalozziList, ourDetectionsList, ourNondetectionList)
+    setMarkForR22Observations(valttsList, ourDetectionsList, ourNondetectionList)
+    setMarkForR22Observations(chenList, ourDetectionsList, ourNondetectionList)
+    # --- mark third-party CS observations
+    # setMarkForOtherObservations()
+    # --- pestalozzi catalogue
+    for maser in pestalozziList:
+        item = maser.observationalCatalogueItem()
+        if item != "": 
+            print item
+    # --- valtts catalogue
+    for maser in valttsList:
+        item = maser.observationalCatalogueItem()
+        if item != "": 
+            print item
+    # --- chen catalogue
+    for maser in chenList:
+        item = maser.observationalCatalogueItem()
+        if item != "": 
+            print item
+        
 
+def prepareMaserTableForObservations2012():
+    # prepare lists of masers
+    pestalozziList = preparePestalozzi()
+    valttsList     = prepareValttz()
+    chenList       = prepareChen()
+    findCataloguesIntersection(pestalozziList, valttsList)
+    findCataloguesIntersection(pestalozziList, chenList)
+    findCataloguesIntersection(valttsList, chenList)
 
+    # # prepare third-party CS observations lists
+    bronfmanList   = prepareBronfman()
+    beutherList    = prepareBeuther()
+    larionovList   = prepareLarionov()
+
+    # prepare our CS observations lists
+    # ourObservationsList = prepareCSObservations()
+    ourDetectionsList   = prepareOurDetections()
+    ourNondetectionList = prepareOurNondetections()
+
+    # step-by-step comparison of obtained lists
+    
+    # create catalogues for observations in 2012:
+    #   - compare every of maser catalogues with our-detection
+    
+    #   - compare every of maser catalogues with our-nondetections
+    #   - select maser sources within nothern hemisphere
+    #   - print every maser catalogue with info about our CS results and other MM (names)
+
+    # create catalogue for 2012 observational session
+
+    # --- select third-party CS observations
+    masers_list = [pestalozziList, valttsList, chenList]
+    cs_results_list = [bronfmanList, beutherList, larionovList]
+    selectCSResultsForMasers(cs_results_list, masers_list)
+    # --- mark r22 CS observations
+    setMarkForR22Observations(pestalozziList, ourDetectionsList, ourNondetectionList)
+    setMarkForR22Observations(valttsList, ourDetectionsList, ourNondetectionList)
+    setMarkForR22Observations(chenList, ourDetectionsList, ourNondetectionList)
+    # --- pestalozzi catalogue
+    for maser in pestalozziList:
+        item = maser.observationalCatalogueItem()
+        if item != "": 
+            print item
+    # --- valtts catalogue
+    for maser in valttsList:
+        item = maser.observationalCatalogueItem()
+        if item != "": 
+            print item
+    # --- chen catalogue
+    for maser in chenList:
+        item = maser.observationalCatalogueItem()
+        if item != "": 
+            print item
+        
 #-----------------------------------------------------------------------------
 if __name__ == '__main__':
-    main_workflow()
+    prepareMaserCatalogsForObservations2012()

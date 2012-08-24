@@ -1,0 +1,316 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rep",
+				"repetitions"
+			],
+			[
+				"rest",
+				"restInterval"
+			],
+			[
+				"re",
+				"repetitions"
+			],
+			[
+				"repot",
+				"reportProperties"
+			],
+			[
+				"source",
+				"source1"
+			],
+			[
+				"resu",
+				"resultsFinlStringNumber"
+			],
+			[
+				"det",
+				"detectionsList"
+			],
+			[
+				"cs",
+				"cs_results"
+			],
+			[
+				"desc",
+				"desc_string"
+			],
+			[
+				"beuth",
+				"beutherResult"
+			],
+			[
+				"erro",
+				"ERROR_VALUE"
+			],
+			[
+				"prep",
+				"prepareBeuther"
+			],
+			[
+				"Bron",
+				"Bronfman"
+			],
+			[
+				"Bronfman",
+				"BronfmanSource"
+			],
+			[
+				"bronf",
+				"bronfmanSource"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"Beuther",
+				"BeutherSource"
+			],
+			[
+				"beu",
+				"beutherSources"
+			],
+			[
+				"ERR",
+				"ERROR_VALUE"
+			],
+			[
+				"flu",
+				"flux_string"
+			],
+			[
+				"pre",
+				"prepareValttz"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"pesta",
+				"pestalozziMasers"
+			],
+			[
+				"ma",
+				"maserSource"
+			],
+			[
+				"maser",
+				"masersList"
+			],
+			[
+				"ra_",
+				"ra_m"
+			],
+			[
+				"ra",
+				"ra_m"
+			],
+			[
+				"de",
+				"def	Function"
+			],
+			[
+				"ob",
+				"observ_point"
+			],
+			[
+				"r",
+				"r22_file"
+			],
+			[
+				"all",
+				"all_cs_observations"
+			],
+			[
+				"uniques_cs_sources",
+				"uniques_cs_source_names"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/admin/Desktop/RINAN/RINAN-githubrepo/RINAN-2012/CS_catalogue/rinan-cs.sublime-project",
+		"/Users/admin/Downloads/distr/Komodo-IDE-7.0.2.70257/ActiveState.Komodo.IDE.v7.0.2.70257.for.MacOSX/Readmy.txt",
+		"/Users/admin/Documents/zubrin/Dropbox/Projects/KuzoraFitness/code/fromVoronov/Kuzora/Classes/KuzoraDBController.m",
+		"/Users/admin/Documents/zubrin/Dropbox/Projects/TeachPoint/mobile/Classes/Reports/TPReports.m",
+		"/Users/admin/Documents/zubrin/Dropbox/Projects/temp/TestCoreText/TestCoreText/TMPCoreTextLabel.m",
+		"/Users/admin/Documents/zubrin/Dropbox/Projects/from_github/CorePlot_1.0/Source/examples/RangePlot/Controller.m",
+		"/Users/admin/IDriveSync/Work/RINAN/CS_catalogue/catalog_preparation.py",
+		"/Users/admin/IDriveSync/Work/RINAN/CS(v2)/CS_catalogue/larionov_data_new.txt",
+		"/Users/admin/IDriveSync/Work/RINAN/CS(v2)/CS_catalogue/chen.catalogue.txt",
+		"/Users/admin/IDriveSync/Work/RINAN/CS(v2)/CS_catalogue/Chen.description.html",
+		"/Users/admin/IDriveSync/Work/RINAN/CS(v2)/CS_catalogue/larionov99.data",
+		"/Users/admin/IDriveSync/Work/RINAN/CS_catalogue/beuther.catalogue",
+		"/Volumes/ZUBRIN/RINAN/CS(v2)/catalogue/catalog_preparation.py",
+		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/admin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/ZUBRIN/RINAN/CS(v2)/catalogue/search.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"objReports",
+			"Report",
+			"getReportHeader",
+			"Order By",
+			"addOurCS",
+			"coordinates_source",
+			"valttz",
+			"VALTTZ",
+			"valttz",
+			"print",
+			"our_nondetection",
+			"print",
+			"temperature_string",
+			"Integrated",
+			"temperature",
+			"BronfmanSource",
+			"bronfmanSource",
+			"bronfmanSources",
+			"Bronfman",
+			"(Source)",
+			"BeutherSource",
+			"bronfman",
+			"nondetectionsList",
+			"flux",
+			"pestalozzi",
+			"ra",
+			"~",
+			"C:/Work",
+			"\\",
+			"C:\\Work",
+			"duplica"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/Users/admin",
+			"~/IDriveSync/Work/RINAN",
+			"/",
+			"~\\iDriveSync\\Work\\RINAN"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 349.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

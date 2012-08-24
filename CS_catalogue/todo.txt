@@ -24,5 +24,7 @@ compare:
 
 
 Tasks for programming:
-- class LarionovSource:Source
-- reqork all "descriptions" methods
+
+
+Stop point:
+- catalogue item, third-party CS detection mark always "n"
