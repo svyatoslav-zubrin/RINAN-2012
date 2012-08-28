@@ -28,3 +28,6 @@ Tasks for programming:
 
 Stop point:
 - catalogue item, third-party CS detection mark always "n"
+
+
+Table and Catalogue description:
