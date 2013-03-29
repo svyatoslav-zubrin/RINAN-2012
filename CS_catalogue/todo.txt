@@ -1,4 +1,9 @@
+Stop point:
+- IRAS catalogue treatment
+
+// --------------------------------------------------------------------------------------------------------------------
 To do list:
+
 1. catalogue of the II class MM for CS observations:
 	Columns of the catalogue
 		- name (from original source catalogue: pestlozzi, xu, valtts, new chinese)
@@ -15,7 +20,13 @@ To do list:
 		- associated IRAS source
 		- associated CS (1-0) observations results with parameters (see bronfman, larionov, beuther, Szymczak(07) observations)
 		- distance from the third-party observational point and maser source (if possible)
+2. Certain sources treatment (complex sources):
+        - select complex source and find all info for them from sindbad (for Observations on other telescope with Zinchenko).
+          Investigation for next info: source type, other types of masers. Search for the complexity reason.
+3. SCUBA, IRAS and other catalogues. How to select the data from these catalogues and how to use it.
 
+
+// --------------------------------------------------------------------------------------------------------------------
 Tasks for catalog creation:
 - create list of masers (unique): compare coordinates of masers from different catalogues. Limit: 15arcsec
 - create list of our observations of the CS molecule
@@ -23,8 +34,8 @@ Tasks for catalog creation:
 compare:
 
 
+// --------------------------------------------------------------------------------------------------------------------
 Tasks for programming:
-
-
-Stop point:
-- catalogue item, third-party CS detection mark always "n"
+- add year of observation to every Nondetection item and show it in the table/catalogue
+- commit all changes
+- format catalogue in columns - make export of them to the xls/ods-file format
