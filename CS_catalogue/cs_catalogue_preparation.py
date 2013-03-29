@@ -431,7 +431,6 @@ def preparePestalozzi():
         # print maserSource.description()
     return pestalozziMasers
 
-
 def prepareValttz():
     filename = "./catalogues/valtts.catalogue"
     sourcesInitStringNumber = 97
@@ -603,7 +602,6 @@ class BronfmanSource(CSSource):
             desc_string += result.description_bronfman()
         return desc_string
 
-
 def prepareBronfman():
     filename = "./catalogues/bronfman.catalogue"
     sourcesInitStringNumber = 55
@@ -732,7 +730,6 @@ class LarionovSource(CSSource):
             desc_string += result.description_larionov()
         return desc_string
 
-
 def prepareLarionov():
     filename = "./catalogues/larionov_data_new.txt"
     sourcesInitStringNumber = 3
@@ -821,6 +818,11 @@ class OurDetection(CSSource):
         desc_string += "Ta*(%6.2f)  Vlsr(%+8.2f)  dV(%4.2f)  rms(%6.3f)  year(%4i)" % (self.antena_temperature, self.velocity, self.linewidth, self.rms, self.year)
         return desc_string
 
+    def description(self):
+        desc_string = "%20.20s   " % ("RT22:" + self.name)
+        desc_string += self.coordinates.description() + "  "
+        desc_string += "Ta(%5.2f)  Vlsr(%5.2f)  dV(%4.2f)  rms(%6.3f)" % (self.antena_temperature, self.velocity, self.linewidth, self.rms)
+        return desc_string
 
 #-----------------------------------------------------------------------------
 class OurNondetection(Source):
