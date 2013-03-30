@@ -37,5 +37,4 @@ compare:
 // --------------------------------------------------------------------------------------------------------------------
 Tasks for programming:
 - add year of observation to every Nondetection item and show it in the table/catalogue
-- commit all changes
 - format catalogue in columns - make export of them to the xls/ods-file format
