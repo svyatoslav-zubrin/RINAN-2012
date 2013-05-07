@@ -51,10 +51,10 @@ class Coordinates(object):
                 dec_s = float(coordinates_source[7])
                 epoch = coordinates_source[12]
                 # popravki
-                dra = float(coordinates_source[9])
-                dde = float(coordinates_source[11])
+                # dra = float(coordinates_source[9])
+                # dde = float(coordinates_source[11])
             # convert to ephem style coordinates
-            ra_string  = str(ra_h)+":"+str(ra_m)+":"+str(ra_s)
+            ra_string = str(ra_h)+":"+str(ra_m)+":"+str(ra_s)
             dec_string = dec_sign + str(dec_d)+":"+str(dec_m)+":"+str(dec_s)
             if epoch == "1950":
                 self.coord1950 = ephem.Equatorial(ra_string, dec_string, epoch=ephem.B1950)
@@ -75,7 +75,7 @@ class Coordinates(object):
             self.coord2000 = ephem.Equatorial(coord_gal, epoch=ephem.J2000)
 
     def description(self):
-        ra_list  = str(self.coord2000.ra).split(":")
+        ra_list = str(self.coord2000.ra).split(":")
         dec_list = str(self.coord2000.dec).split(":")
         desc_string = "%2.0f %2.0f %5.2f    %+3.0f %2.0f %5.2f    %s" % (float(ra_list[0]), float(ra_list[1]), float(ra_list[2]), \
                                                                         float(dec_list[0]), float(dec_list[1]), float(dec_list[2]), "2000")
@@ -602,6 +602,7 @@ class BronfmanSource(CSSource):
             desc_string += result.description_bronfman()
         return desc_string
 
+
 def prepareBronfman():
     filename = "./catalogues/bronfman.catalogue"
     sourcesInitStringNumber = 55
@@ -730,6 +731,7 @@ class LarionovSource(CSSource):
             desc_string += result.description_larionov()
         return desc_string
 
+
 def prepareLarionov():
     filename = "./catalogues/larionov_data_new.txt"
     sourcesInitStringNumber = 3
@@ -758,8 +760,8 @@ def prepareLarionov():
         temperature_string = csList[i][14]
         temperature = float(temperature_string)
         # Integrated temperature
-        integrated_temperature_string = csList[i][14]
-        integrated_temperature = float(integrated_temperature_string)
+        # integrated_temperature_string = csList[i][14]
+        # integrated_temperature = float(integrated_temperature_string)
         # Velocity
         velocity_string = csList[i][10]
         velocity = float(velocity_string)
@@ -823,6 +825,7 @@ class OurDetection(CSSource):
         desc_string += self.coordinates.description() + "  "
         desc_string += "Ta(%5.2f)  Vlsr(%5.2f)  dV(%4.2f)  rms(%6.3f)" % (self.antena_temperature, self.velocity, self.linewidth, self.rms)
         return desc_string
+
 
 #-----------------------------------------------------------------------------
 class OurNondetection(Source):
@@ -968,7 +971,7 @@ def selectCSResultsForMasersTable(cs_results_list, masers_list):
 
 
 #-----------------------------------------------------------------------------
-# Main programm logic
+# Main program logic
 #-----------------------------------------------------------------------------
 def prepareMaserCatalogsForObservations2012():
     # prepare lists of masers
@@ -1155,8 +1158,139 @@ def prepareMaserTableForObservations2012():
     return
 
 
+##########################################################################################
+# Staistics part
+##########################################################################################
+
+def prepareIClassForStatistics():
+    return
+
+
+def prepareIIClassForStatistics():
+    return
+
+
+def prepareOurIClassForStatistics():
+    pestalozziList = preparePestalozzi()
+    ourDetectionsList = prepareOurDetections()
+    ourNondetectionList = prepareOurNondetections()
+    setMarkForR22Observations(pestalozziList, ourDetectionsList, ourNondetectionList)
+    # prepare table
+    # stat_file = open('our_Iclass_stat.dat')
+    for maser in pestalozziList:
+        if maser.rt22DetectionMark == RT22_DETECTED:
+            for item in maser.our_cs_results:
+                print "%s %s %f %f %f %f %f" % (maser.name, maser.coordinates.description(), maser.velocity, maser.flux, item.velocity, item.linewidth, item.antena_temperature)
+    return
+
+
+def prepareOurIIClassForStatistics():
+    valttzList = prepareValttz()
+    ourDetectionsList = prepareOurDetections()
+    ourNondetectionList = prepareOurNondetections()
+    setMarkForR22Observations(valttzList, ourDetectionsList, ourNondetectionList)
+    # prepare table
+    # stat_file = open('our_Iclass_stat.dat')
+    for maser in valttzList:
+        if maser.rt22DetectionMark == RT22_DETECTED:
+            for item in maser.our_cs_results:
+                print "%s %s %f %f %f %f %f" % (maser.name, maser.coordinates.description(), maser.velocity, maser.flux, item.velocity, item.linewidth, item.antena_temperature)
+    return
+
+
+def prepareOtherIClassForStatistics():
+    pestalozziList = preparePestalozzi()
+    bronfmanList   = prepareBronfman()
+    beutherList    = prepareBeuther()
+    larionovList   = prepareLarionov()
+    setMarkForOtherObservations(pestalozziList, [bronfmanList, beutherList, larionovList])
+    # prepare table
+    # stat_file = open('our_Iclass_stat.dat')
+    for maser in pestalozziList:
+        if maser.otherDetectionMark == OTHER_DETECTED:
+            for item in maser.other_cs_sources:
+                print "%s %s %f %f %s" % (maser.name, maser.coordinates.description(), maser.velocity, maser.flux, item.description())
+    return
+
+
+def prepareOtherIIClassForStatistics():
+    valttzList = prepareValttz()
+    bronfmanList   = prepareBronfman()
+    beutherList    = prepareBeuther()
+    larionovList   = prepareLarionov()
+    setMarkForOtherObservations(valttzList, [bronfmanList, beutherList, larionovList])
+    # prepare table
+    # stat_file = open('our_Iclass_stat.dat')
+    for maser in valttzList:
+        if maser.otherDetectionMark == OTHER_DETECTED:
+            for item in maser.other_cs_sources:
+                print "%s %s %f %f %s" % (maser.name, maser.coordinates.description(), maser.velocity, maser.flux, item.description())
+    return
+
+
+def prepareForStatistics():
+    # prepare lists of masers
+    pestalozziList = preparePestalozzi()
+    valttsList     = prepareValttz()
+    chenList       = prepareChen()
+    findCataloguesIntersection(pestalozziList, valttsList)
+    findCataloguesIntersection(pestalozziList, chenList)
+    findCataloguesIntersection(valttsList, chenList)
+
+    # prepare third-party CS observations lists
+    bronfmanList   = prepareBronfman()
+    beutherList    = prepareBeuther()
+    larionovList   = prepareLarionov()
+
+    # prepare our CS observations lists
+    # ourObservationsList = prepareCSObservations()
+    ourDetectionsList   = prepareOurDetections()
+    ourNondetectionList = prepareOurNondetections()
+
+    # create catalogue for 2012 observational session
+    catalogue_file = open('cs_table_2013.cat', 'w')
+    # --- select third-party CS observations
+    masers_list = [pestalozziList, valttsList, chenList]
+    cs_results_list = [bronfmanList, beutherList, larionovList]
+    
+    # --- mark r22 CS observations
+    setMarkForR22Observations(pestalozziList, ourDetectionsList, ourNondetectionList)
+    setMarkForR22Observations(valttsList, ourDetectionsList, ourNondetectionList)
+    setMarkForR22Observations(chenList, ourDetectionsList, ourNondetectionList)
+    # TODO:
+    # - make list of observations for statistics
+    # - which python module should be used to make statistics
+    # - split sources into some groups for separate statistics:
+    #   1. Iclass 
+    #   2. IIclass
+    #   3. BothClasses
+    #   4. OurResultsOnly
+    #   5. OtherResultsOnly
+    #   6. AllResults
+    # - graphics for obtained statistics (gnuplot)
+    # - overall table for comparison
+    
+    # output for statistic should contain next columns:
+    # - source name
+    # - other possible source ids
+    # - Vlsr
+    # - dV
+    # - Ta
+    # - Vlsr meth
+    # - dV meth / Vmin & Vmax
+    # - S/Sint meth
+    # - 
+    return
+
+
 #-----------------------------------------------------------------------------
 if __name__ == '__main__':
-    prepareMaserCatalogsForObservations2012()
-    prepareMaserTableForObservations2012()
+    # prepareMaserCatalogsForObservations2012()
+    # prepareMaserTableForObservations2012()
+
+    # prepareOurIClassForStatistics()
+    # prepareOurIIClassForStatistics()
+    # prepareOtherIClassForStatistics()
+    prepareOtherIIClassForStatistics()
+
     print "Finished OK!"
