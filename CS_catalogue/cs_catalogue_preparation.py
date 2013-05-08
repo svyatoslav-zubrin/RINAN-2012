@@ -154,6 +154,7 @@ class MMaser(Source):
         self.our_cs_results.append(our_cs_result)
 
     def addThirdpartyCS(self, cs_source):
+        print "add 3party"
         self.other_cs_sources.append(cs_source)
         if cs_source.isCSDetectionPositive is True:
             self.isOtherResultPositive = True
@@ -178,9 +179,9 @@ class MMaser(Source):
         if (len(self.unresolved_sources) > 0):
             for source in self.unresolved_sources:
                 desc_string += source.name + "\t"
-        if (len(self.cs_results) > 0):
-            for source in self.cs_results:
-                desc_string += source.description() + "\t"
+        # if (len(self.cs_results) > 0):
+        #     for source in self.cs_results:
+        #         desc_string += source.description() + "\t"
         if (len(self.our_cs_results) > 0):
             for result in self.our_cs_results:
                 desc_string += source.description() + "\t"
@@ -1198,15 +1199,46 @@ def prepareOurIIClassForStatistics():
     return
 
 
-def prepareOtherIClassForStatistics():
-    pestalozziList = preparePestalozzi()
+def prepareOurChenMasersForStatistics():
+    masersList = prepareChen()
+    ourDetectionsList = prepareOurDetections()
+    ourNondetectionList = prepareOurNondetections()
+    setMarkForR22Observations(masersList, ourDetectionsList, ourNondetectionList)
+    # prepare table
+    # stat_file = open('our_Iclass_stat.dat')
+    for maser in masersList:
+        if maser.rt22DetectionMark == RT22_DETECTED:
+            for maser_line in maser.spectral_lines:
+                for item in maser.our_cs_results:
+                    print "%s %s %f %f %f %f %f %f" % (maser.name, maser.coordinates.description(), maser_line.vlsr, maser_line.flux, maser_line.linewidth, item.velocity, item.linewidth, item.antena_temperature)
+    return
+
+
+def prepareOtherChenMasersForStatistics():
+    masersList     = prepareChen()
     bronfmanList   = prepareBronfman()
     beutherList    = prepareBeuther()
     larionovList   = prepareLarionov()
-    setMarkForOtherObservations(pestalozziList, [bronfmanList, beutherList, larionovList])
+    setMarkForOtherObservations(masersList, [bronfmanList, beutherList, larionovList])
     # prepare table
     # stat_file = open('our_Iclass_stat.dat')
-    for maser in pestalozziList:
+    for maser in masersList:
+        if maser.otherDetectionMark == OTHER_DETECTED:
+            for maser_line in maser.spectral_lines:
+                for item in maser.other_cs_sources:
+                    print "%s %s %f %f %f %s" % (maser.name, maser.coordinates.description(), maser_line.vlsr, maser_line.flux, maser_line.linewidth, item.description())
+    return
+
+
+def prepareOtherIClassForStatistics():
+    masersList     = prepareChen()
+    bronfmanList   = prepareBronfman()
+    beutherList    = prepareBeuther()
+    larionovList   = prepareLarionov()
+    setMarkForOtherObservations(masersList, [bronfmanList, beutherList, larionovList])
+    # prepare table
+    # stat_file = open('our_Iclass_stat.dat')
+    for maser in masersList:
         if maser.otherDetectionMark == OTHER_DETECTED:
             for item in maser.other_cs_sources:
                 print "%s %s %f %f %s" % (maser.name, maser.coordinates.description(), maser.velocity, maser.flux, item.description())
@@ -1291,6 +1323,9 @@ if __name__ == '__main__':
     # prepareOurIClassForStatistics()
     # prepareOurIIClassForStatistics()
     # prepareOtherIClassForStatistics()
-    prepareOtherIIClassForStatistics()
+    # prepareOtherIIClassForStatistics()
+
+    # prepareOurChenMasersForStatistics()
+    prepareOtherChenMasersForStatistics()
 
     print "Finished OK!"
